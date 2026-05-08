@@ -15,7 +15,7 @@ public class TCPClient {
     public static void main(String[] args) throws IOException {
 
         // IP Addresses will be discussed in detail in lecture 4
-        String IPAddressString = "10.216.34.134";
+        String IPAddressString = "127.0.0.1";
         InetAddress host = InetAddress.getByName(IPAddressString);
 
         // Port numbers will be discussed in detail in lecture 5
